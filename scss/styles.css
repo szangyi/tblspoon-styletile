@@ -7,6 +7,9 @@
 
 body {
   overflow-x: hidden;
+}
+
+main {
   margin: 3rem;
 }
 
@@ -14,12 +17,30 @@ section {
   margin-bottom: 2rem;
 }
 
-.section_header {
+.section-header {
   border-bottom: 1px solid #ccc;
   margin: 1rem 0;
-  font-size: 12px;
+  font-size: 0.8rem;
   text-transform: uppercase;
-  color: #666;
+  color: #4F4F4F;
+}
+
+.section-sub-header {
+  color: #CAD7DD;
+  font-weight: bold;
+  font-size: 0.9rem;
+}
+
+.section-split {
+  display: grid;
+  grid-template-columns: 0.9fr 1.1fr;
+  gap: 3rem;
+}
+
+header {
+  background-color: #FD8D27;
+  color: white;
+  padding: 0.5rem 3rem;
 }
 
 * {
@@ -28,7 +49,7 @@ section {
 
 .colors {
   display: flex;
-  justify-content: space-between;
+  column-gap: 6vw;
   flex-wrap: wrap;
 }
 .colors p {
@@ -38,8 +59,8 @@ section {
 }
 
 .color {
-  width: 10vw;
-  height: 10vw;
+  width: 6rem;
+  height: 6rem;
   border-radius: 50%;
 }
 .color-primary {
@@ -59,6 +80,12 @@ section {
 }
 .color-grey-light {
   background-color: #C6C6C6;
+}
+
+.moods img {
+  width: auto;
+  height: 18rem;
+  display: inline-block;
 }
 
 html, body {
@@ -104,10 +131,36 @@ p {
 button {
   display: inline-block;
   padding: 0.5rem 2rem;
-  background-color: #CAD7DD;
   text-transform: uppercase;
   font-size: 0.8rem;
+  cursor: pointer;
+  transition: 0.18s ease-out;
+}
+button.button-primary {
+  background-color: #1C1C1C;
   color: white;
   border: none;
-  transition: 0.3s ease-out;
+}
+button.button-primary:hover {
+  background-color: #2b2b2b;
+}
+button.button-secondary {
+  background-color: white;
+  color: #1C1C1C;
+  border: 1px solid #CAD7DD;
+}
+button.button-secondary:hover {
+  background-color: #CAD7DD;
+  color: white;
+}
+
+.graphic-container {
+  display: inline-block;
+}
+.graphic-container:nth-of-type(2) {
+  margin-left: 1rem;
+}
+.graphic-container img {
+  width: 12vw;
+  height: auto;
 }

@@ -9,6 +9,18 @@
   ],
   "creatorBuild" : "34127",
   "files" : {
+    "\/css\/styles-min.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/css\/styles-min-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
     "\/css\/styles.css" : {
       "aP" : 1,
       "bl" : 0,
@@ -18,6 +30,18 @@
       "ma" : 0,
       "oA" : 0,
       "oAP" : "\/css\/styles-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
+    "\/css\/styles.min-min.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/css\/styles.min-min-min.css",
       "oF" : 0,
       "pg" : 0
     },
@@ -33,6 +57,18 @@
       "oF" : 0,
       "pg" : 0
     },
+    "\/css\/var-min.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/css\/var-min-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
     "\/css\/var.css" : {
       "aP" : 1,
       "bl" : 0,
@@ -44,6 +80,77 @@
       "oAP" : "\/css\/var-min.css",
       "oF" : 0,
       "pg" : 0
+    },
+    "\/css\/var.min.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/css\/var.min-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
+    "\/images\/graphic-avo.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/images\/graphic-avo.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/images\/graphic-tomato.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/images\/graphic-tomato.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/images\/mood-1.jpg" : {
+      "ft" : 16384,
+      "iS" : 42653,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/images\/mood-1.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/images\/mood-2.jpg" : {
+      "ft" : 16384,
+      "iS" : 93042,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/images\/mood-2.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/images\/mood-3.jpg" : {
+      "ft" : 16384,
+      "iS" : 20065,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/images\/mood-3.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
     },
     "\/index.html" : {
       "cB" : 0,

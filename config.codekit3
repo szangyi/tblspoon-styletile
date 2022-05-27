@@ -9,6 +9,54 @@
   ],
   "creatorBuild" : "34127",
   "files" : {
+    "\/css\/footer.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/css\/footer-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
+    "\/css\/footer.min.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/css\/footer.min-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
+    "\/css\/nav.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/css\/nav-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
+    "\/css\/nav.min.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/css\/nav.min-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
     "\/css\/styles-min.css" : {
       "aP" : 1,
       "bl" : 0,
@@ -81,6 +129,18 @@
       "oF" : 0,
       "pg" : 0
     },
+    "\/css\/var.min-min.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/css\/var.min-min-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
     "\/css\/var.min.css" : {
       "aP" : 1,
       "bl" : 0,
@@ -92,6 +152,16 @@
       "oAP" : "\/css\/var.min-min.css",
       "oF" : 0,
       "pg" : 0
+    },
+    "\/images\/fb-icon.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/images\/fb-icon.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
     },
     "\/images\/graphic-avo.svg" : {
       "ft" : 2097152,
@@ -108,6 +178,46 @@
       "miP" : 0,
       "oA" : 2,
       "oAP" : "\/images\/graphic-tomato.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/images\/ig-icon.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/images\/ig-icon.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/images\/logo-horizontal-white.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/images\/logo-horizontal-white.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/images\/logo-medium.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/images\/logo-medium.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/images\/logo-small.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/images\/logo-small.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
@@ -152,6 +262,26 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/images\/search-dark-icon.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/images\/search-dark-icon.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/images\/search-light-icon.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/images\/search-light-icon.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
     "\/index.html" : {
       "cB" : 0,
       "ft" : 8192,
@@ -159,6 +289,46 @@
       "oA" : 0,
       "oAP" : "\/index.html",
       "oF" : 0
+    },
+    "\/scss\/footer.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/scss\/footer.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/scss\/nav.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/scss\/nav-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
+    "\/scss\/nav.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/scss\/nav.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
     },
     "\/scss\/styles.css" : {
       "aP" : 1,

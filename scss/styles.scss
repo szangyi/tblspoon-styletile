@@ -1,5 +1,6 @@
 @import "var";
-
+@import "nav";
+@import "footer";
 
 * {
     margin: 0;
@@ -12,41 +13,70 @@ body {
 }
 
 main {
-    margin: $spacing-xxl;
+    margin: $spacing-sm;
+}
+
+li {
+    list-style: none
+}
+
+a {
+    text-decoration: none;
+}
+
+@media only screen and (min-width: map-get($breakPoints, lg)) {
+    main {
+        margin: $spacing-xxl;
+    }
 }
 
 // STYLE GUIDE STYLES
 section {
-    margin-bottom: $spacing-xl
+    margin-bottom: $spacing-xl;
 }
 
 .section-header {
     border-bottom: 1px solid #ccc;
     margin: $spacing-md 0;
-    font-size: .8rem;
+    font-size: 0.8rem;
     text-transform: uppercase;
-    color: $color-grey-dark
+    color: $color-grey-dark;
 }
 
 .section-sub-header {
     color: $color-secondary;
-    font-weight:bold;
-    font-size: .9rem;
+    font-weight: bold;
+    font-size: 0.9rem;
+    margin-top: $spacing-md
+
 }
+
 
 .section-split {
-    display: grid;
-    grid-template-columns: .9fr 1.1fr;
-    gap: 3rem;
+    display: flex;
+    flex-direction: column;
 }
 
+@media only screen and (min-width: map-get($breakPoints, lg)) {
+    .section-split {
+        display: grid;
+        grid-template-columns: 0.9fr 1.1fr;
+        gap: 3rem;
+    }
+}
 
 header {
     background-color: $color-primary;
     color: white;
     padding: $spacing-sm $spacing-xxl;
+    text-align: center;
 }
 
+@media only screen and (min-width: map-get($breakPoints, lg)) {
+    header {
+        padding: $spacing-sm;
+    }
+}
 
 * {
     box-sizing: border-box;
@@ -56,12 +86,13 @@ header {
 .colors {
     display: flex;
     column-gap: 6vw;
+    row-gap: $spacing-md;
     flex-wrap: wrap;
 
     p {
         color: grey;
         text-align: center;
-        font-size: .7rem;
+        font-size: 0.7rem;
     }
 }
 
@@ -83,7 +114,7 @@ header {
         background-color: $color-text;
     }
     &-grey-dark {
-        background-color: $color-grey-dark
+        background-color: $color-grey-dark;
     }
     &-grey-light {
         background-color: $color-grey-light;
@@ -92,65 +123,92 @@ header {
 
 // MOODS
 .moods {
-
     img {
-        width:auto;
-        height: 18rem;
-        display:inline-block
+        width: auto;
+        height: 12rem;
+        display: inline-block;
     }
 }
 
+@media only screen and (min-width: map-get($breakPoints, xl)) {
+    .moods {
+        img {
+            width: auto;
+            height: 14rem;
+            display: inline-block;
+        }
+    }
+}
+
+@media only screen and (min-width: map-get($breakPoints, xxl)) {
+    .moods {
+        img {
+            width: auto;
+            height: 18rem;
+            display: inline-block;
+        }
+    }
+}
 
 // TYPOGRAPHY
-html, body {
+html,
+body {
     font-family: $font-main;
-    color: $color-text
+    color: $color-text;
 }
 
 h1 {
     font-family: $font-headers;
     text-transform: uppercase;
-    font-size: 4rem;
+    font-size: 2.5rem;
 }
 
 h2 {
     font-family: $font-headers;
     text-transform: uppercase;
-    font-size: 3.8rem;
+    font-size: 2rem;
 }
 
 h3 {
     font-family: $font-headers;
     text-transform: uppercase;
-    margin-bottom:1.2rem;
+    margin-bottom: 1.2rem;
 }
 
 h4 {
     font-family: $font-headers;
     text-transform: uppercase;
-    margin-bottom:1.2rem;
+    margin-bottom: 1.2rem;
 }
 
 h5 {
     font-family: $font-main;
     font-weight: 500;
     font-size: 1.2rem;
-    margin-bottom:1.2rem;
+    margin-bottom: 1.2rem;
 }
 
 p {
     line-height: 1.4;
 }
 
+@media only screen and (min-width: map-get($breakPoints, lg)) {
+    h1 {
+        font-size: 4rem;
+    }
+    h2 {
+        font-size: 3.8rem;
+    }
+}
 
 // BUTTONS
 button {
     display: inline-block;
     padding: $spacing-sm $spacing-xl;
     text-transform: uppercase;
-    font-size: .8rem;
+    font-size: 0.8rem;
     cursor: pointer;
-    transition: .18s ease-out;
+    transition: 0.18s ease-out;
 
     &.button-primary {
         background-color: $color-text;
@@ -172,20 +230,32 @@ button {
             color: white;
         }
     }
-
 }
-
 
 // GRAPHICS
 .graphic-container {
-    display:inline-block;
+    display: inline-block;
 
     &:nth-of-type(2) {
-        margin-left: 1rem
+        margin-left: 1rem;
     }
 
     img {
         width: 12vw;
-        height:auto
+        height: auto;
+    }
+}
+
+// GRAPHICS
+.icon {
+    width: 30px;
+    height: 30px;
+}
+
+// LOGO
+.logo-container {
+    img {
+        height: 10vw;
+        width: auto;
     }
 }

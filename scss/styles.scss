@@ -1,6 +1,7 @@
 @import "var";
 @import "nav";
 @import "footer";
+@import "recipecard";
 
 * {
     margin: 0;
@@ -248,8 +249,8 @@ button {
 
 // GRAPHICS
 .icon {
-    width: 30px;
-    height: 30px;
+    width: 20px;
+    height: 20px;
 }
 
 // LOGO

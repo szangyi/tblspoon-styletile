@@ -9,6 +9,18 @@
   ],
   "creatorBuild" : "34127",
   "files" : {
+    "\/css\/footer-min.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/css\/footer-min-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
     "\/css\/footer.css" : {
       "aP" : 1,
       "bl" : 0,
@@ -18,6 +30,18 @@
       "ma" : 0,
       "oA" : 0,
       "oAP" : "\/css\/footer-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
+    "\/css\/footer.min-min.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/css\/footer.min-min-min.css",
       "oF" : 0,
       "pg" : 0
     },
@@ -33,6 +57,18 @@
       "oF" : 0,
       "pg" : 0
     },
+    "\/css\/nav-min.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/css\/nav-min-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
     "\/css\/nav.css" : {
       "aP" : 1,
       "bl" : 0,
@@ -45,6 +81,18 @@
       "oF" : 0,
       "pg" : 0
     },
+    "\/css\/nav.min-min.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/css\/nav.min-min-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
     "\/css\/nav.min.css" : {
       "aP" : 1,
       "bl" : 0,
@@ -54,6 +102,30 @@
       "ma" : 0,
       "oA" : 0,
       "oAP" : "\/css\/nav.min-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
+    "\/css\/recipecard.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/css\/recipecard-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
+    "\/css\/recipecard.min.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/css\/recipecard.min-min.css",
       "oF" : 0,
       "pg" : 0
     },
@@ -163,6 +235,16 @@
       "plM" : 52780316221407,
       "prP" : 0
     },
+    "\/images\/gauge-icon.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/images\/gauge-icon.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
     "\/images\/graphic-avo.svg" : {
       "ft" : 2097152,
       "miP" : 0,
@@ -178,6 +260,26 @@
       "miP" : 0,
       "oA" : 2,
       "oAP" : "\/images\/graphic-tomato.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/images\/heart-icon.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/images\/heart-icon.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/images\/ig-icon copy.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/images\/ig-icon copy.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
@@ -262,6 +364,16 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/images\/search-dark-icon copy.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/images\/search-dark-icon copy.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
     "\/images\/search-dark-icon.svg" : {
       "ft" : 2097152,
       "miP" : 0,
@@ -272,11 +384,42 @@
       "plM" : 52780316221407,
       "prP" : 0
     },
+    "\/images\/search-light-icon copy.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/images\/search-light-icon copy.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
     "\/images\/search-light-icon.svg" : {
       "ft" : 2097152,
       "miP" : 0,
       "oA" : 2,
       "oAP" : "\/images\/search-light-icon.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/images\/spaghetti.webp" : {
+      "ft" : 8388608,
+      "iS" : 158830,
+      "oA" : 0,
+      "oAP" : "\/images\/spaghetti.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
+      "rq" : 75
+    },
+    "\/images\/time-icon.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/images\/time-icon.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
@@ -325,6 +468,20 @@
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/scss\/nav.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/scss\/recipecard.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/scss\/recipecard.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
